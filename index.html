@@ -184,6 +184,23 @@
       </form>
     </div>
   </section>
+  <section class="book" id="sung-runes">
+    <img class="cover" src="covers/sung-runes.jpg" alt="Cover of The Book of Sung Runes" width="260" height="390" loading="lazy">
+    <div class="body">
+      <p class="kicker">Free printables for</p>
+      <h2>The Book of Sung Runes</h2>
+      <p class="sub">Of the Old Northern Letters: Their Carving and Their Singing, Their Reading, and the Twenty-Four Runes One by One</p>
+      <ul><li>The Song Log, nine pages to record each rune you sing</li><li>The Garden Ledger, for the two-bed experiment</li><li>Twenty-four rune cards, to cut out and keep</li><li>The casting cloth, for the reading of three</li></ul>
+      <form class="get" data-book="sung-runes" method="post" target="_blank">
+        <label for="email-sung-runes">Your email</label>
+        <div class="row">
+          <input id="email-sung-runes" type="email" name="email_address" placeholder="you@example.com" required autocomplete="email">
+          <button type="submit">Send me the PDF</button>
+        </div>
+        <p class="fine">You'll get one email with the download. No spam, and you can unsubscribe at any time.</p>
+      </form>
+    </div>
+  </section>
 </main>
 <footer>
   <p>Books by S. Nonis, on Amazon in paperback and Kindle.</p>
@@ -200,7 +217,8 @@
     "tea-leaves": "https://app.kit.com/forms/10147867/subscriptions",
     "knots-and-wards": "https://app.kit.com/forms/10147857/subscriptions",
     "hundred-and-twelve-doors": "https://app.kit.com/forms/10147806/subscriptions",
-    "nine-lights": "https://app.kit.com/forms/10147658/subscriptions"
+    "nine-lights": "https://app.kit.com/forms/10147658/subscriptions",
+    "sung-runes": ""
   };
   document.querySelectorAll("form.get").forEach(function (f) {
     var id = KIT_FORMS[f.dataset.book];
