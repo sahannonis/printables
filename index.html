@@ -193,14 +193,14 @@
   // ---- Paste each book's Kit form ID here (the number in the form's address in Kit), or the full
   //      action address from Kit's "Embed using HTML" code. Leave a book empty and its button says "Coming very soon".
   const KIT_FORMS = {
-    "burnt-seals": "",
-    "dream-keys": "",
-    "unsent-letters": "",
-    "candle-rites": "",
-    "tea-leaves": "",
-    "knots-and-wards": "",
-    "hundred-and-twelve-doors": "",
-    "nine-lights": ""
+    "burnt-seals": "https://app.kit.com/forms/10147821/subscriptions",
+    "dream-keys": "https://app.kit.com/forms/10147842/subscriptions",
+    "unsent-letters": "https://app.kit.com/forms/10147873/subscriptions",
+    "candle-rites": "https://app.kit.com/forms/10147834/subscriptions",
+    "tea-leaves": "https://app.kit.com/forms/10147867/subscriptions",
+    "knots-and-wards": "https://app.kit.com/forms/10147857/subscriptions",
+    "hundred-and-twelve-doors": "https://app.kit.com/forms/10147806/subscriptions",
+    "nine-lights": "https://app.kit.com/forms/10147658/subscriptions"
   };
   document.querySelectorAll("form.get").forEach(function (f) {
     var id = KIT_FORMS[f.dataset.book];
